@@ -1,0 +1,52 @@
+@font-face {
+    font-family: visitor;
+    src: url(visitor1.ttf);
+}
+
+$main: #48446D;
+$accent: #8984ef;
+$bg: #faf8ff;
+
+:root {
+    text-size-adjust: 100%;
+    font-family: visitor;
+
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.top-bar {
+    width: 100%;
+    height: 6.375rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-bottom: 5px solid $main;
+    padding-top: 50px;
+    background: $bg;
+    text-align: center;
+}
+
+h1 {
+    color: $main;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1%;
+}
+
+h2 {
+    color: $accent;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1%;
+}
